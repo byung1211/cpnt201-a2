@@ -6,7 +6,7 @@
 
 
 ## Directory Structure
-
+```
 README.md
 index.html
 assets/ 
@@ -29,3 +29,4 @@ assets/
    |      |     | - onepunch-3-500.jpg
    | - css/
           | - style.css
+```
