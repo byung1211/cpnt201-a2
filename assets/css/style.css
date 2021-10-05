@@ -1,0 +1,27 @@
+.container-1920 {
+  width:90vw;
+  max-width: 1920px;
+  margin:auto;
+}
+
+.container-800 {
+  width:90vw;
+  max-width: 800px;
+  margin:auto;
+}
+
+.container-500 {
+  width:90vw;
+  max-width: 500px;
+  margin:auto;
+}
+
+img {
+  display:block;
+  width:100%;
+  margin:3rem auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
