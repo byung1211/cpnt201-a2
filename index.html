@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,30 +13,52 @@
 </header>
 <main>
   <section>
+    <h2>Resposive images</h2>
+    <div >
+      <picture>
+        <source srcset="assets/images/lg/onepunch-3-1920.webp" media="(min-width: 800px)" />
+        <source srcset="assets/images/md/onepunch-3-800.webp" media="(min-width: 500px)" />
+        <img src="assets/images/sm/onepunch-3-500.webp" alt="Large Image 3" loading="lazy"/>
+      </picture>
+      <picture>
+        <source srcset="assets/images/lg/onepunch-2-1920.webp" media="(min-width: 800px)" />
+        <source srcset="assets/images/md/onepunch-2-800.webp" media="(min-width: 500px)" />
+        <img src="assets/images/sm/onepunch-2-500.webp" alt="Large Image 2" loading="lazy"/>
+      </picture>
+      <picture>
+        <source srcset="assets/images/lg/onepunch-1-1920.webp" media="(min-width: 800px)" />
+        <source srcset="assets/images/md/onepunch-1-800.webp" media="(min-width: 500px)" />
+        <img src="assets/images/sm/onepunch-1-500.webp" alt="Large Image 1" loading="lazy"/>
+      </picture>
+    </div>
+  </section>
+
+  <!-- Test Code ---------------------------------------------------2021.10.04 by Byung
+  <section>
     <h2>1920px wide images</h2>
     <div class="container-1920">
-      <img src="assets/images/lg/onepunch-1-1920.webp" alt="LG Image 1" />
-      <img src="assets/images/lg/onepunch-2-1920.webp" alt="LG Image 2" />
-      <img src="assets/images/lg/onepunch-3-1920.webp" alt="LG Image 3" />
+      <img src="assets/images/lg/onepunch-1-1920.webp" alt="LG Image 1" loading="lazy"/>
+      <img src="assets/images/lg/onepunch-2-1920.webp" alt="LG Image 2" loading="lazy"/>
+      <img src="assets/images/lg/onepunch-3-1920.webp" alt="LG Image 3" loading="lazy"/>
     </div>
   </section>
   <section>
     <h2>800px wide images</h2>
     <div class="container-800">
-      <img src="assets/images/md/onepunch-1-800.webp" alt="MD Image 1" />
-      <img src="assets/images/md/onepunch-2-800.webp" alt="MD Image 2" />
-      <img src="assets/images/md/onepunch-3-800.webp" alt="MD Image 3" />
+      <img src="assets/images/md/onepunch-1-800.webp" alt="MD Image 1" loading="lazy"/>
+      <img src="assets/images/md/onepunch-2-800.webp" alt="MD Image 2" loading="lazy"/>
+      <img src="assets/images/md/onepunch-3-800.webp" alt="MD Image 3" loading="lazy"/>
     </div>
   </section>
   <section>
     <h2>500px wide images</h2>
     <div class="container-500">
-      <img src="assets/images/sm/onepunch-1-500.webp" alt="SM Image 1" />
-      <img src="assets/images/sm/onepunch-2-500.webp" alt="SM Image 2" />
-      <img src="assets/images/sm/onepunch-3-500.webp" alt="SM Image 3" />
+      <img src="assets/images/sm/onepunch-1-500.webp" alt="SM Image 1" loading="lazy"/>
+      <img src="assets/images/sm/onepunch-2-500.webp" alt="SM Image 2" loading="lazy"/>
+      <img src="assets/images/sm/onepunch-3-500.webp" alt="SM Image 3" loading="lazy"/>
     </div>
   </section>
-
+  -->
 </main>
 </body>
 </html>
