@@ -30,3 +30,6 @@ assets/
    | - css/
           | - style.css
 ```
+
+## Attributes
+- Images are from https://www.wallpaperflare.com
